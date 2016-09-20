@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS BASIC SO BASIC</title>
+    <!-- Internal Style Sheet -->
+    <style>
+      /*
+        selectors {
+          properties: values;
+        }
+      */
+
+      /*h2 {
+        color: blue;
+        font-size: 42px;
+      }*/
+    </style>
+
+    <!-- External Style Sheet - DO IT THIS WAY! -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <!-- Inline Style Sheet Example (REMOVED) - RED ZONE -->
+      <h1>Heyowz</h1>
+      <h2>Style me up please</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+
+      <a href="#">Link to anywhere</a>
+
+      <ul>
+        <!-- DONT PUT SAME ID VALUE FOR DIFFERENT SELECTORS -->
+        <li class="green">test</li>
+        <li class="green">test</li>
+        <li class="green">test</li>
+        <li>test</li>
+        <li>test</li>
+        <li>
+          <ul>
+            <li class="green primary-list">child</li>
+            <li>child</li>
+            <li>
+              <ul>
+                <li>
+                  grand child
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <!-- <span class="primary-list">this one is a primary list too somehow</span> -->
+
+      <p>
+        one here
+      </p>
+
+      <p>
+        one there
+        <span class="greenish">span here</span>
+      </p>
+
+      <p class="green greenish">
+        another here
+      </p>
+
+      <span>span not inside paragraph</span>
+
+
+
+
+
+
+
+  </body>
+</html>
