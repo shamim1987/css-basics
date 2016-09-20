@@ -1,4 +1,54 @@
+/*#primary {
+  color: red;
+}*/
+
+h1 {
+  color: red;
+  font-size: 77px;
+}
+
 h2 {
   color: blue;
   font-size: 42px;
+}
+
+p {
+  /*color: green;*/
+  font-style: italic;
+}
+
+
+
+a {
+  font-size: 33px;
+  text-decoration: overline;
+}
+
+/*.green {
+  text-decoration: underline;
+  color: rgb(15, 180, 170);
+}*/
+
+.green {
+  color: rgb(15, 180, 170);
+}
+.green.primary-list {
+  text-decoration: underline;
+}
+
+/* stylings only for paragraph */
+p span {
+  color: rgb(131, 153, 131);
+}
+
+/* first nesting method - DIRECT CHILD */
+li > li {
+  color: red;
+  font-weight: bold;
+}
+
+/* second nesting method - DESCENDANT */
+li li {
+  color: blue;
+  font-weight: bold;
 }
